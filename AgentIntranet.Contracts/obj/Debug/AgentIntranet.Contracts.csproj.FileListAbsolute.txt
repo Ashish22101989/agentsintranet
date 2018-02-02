@@ -1,0 +1,10 @@
+B:\ASP_Project\AgentIntranet\AgentIntranet.Contracts\bin\Debug\AgentIntranet.Contracts.dll
+B:\ASP_Project\AgentIntranet\AgentIntranet.Contracts\bin\Debug\AgentIntranet.Contracts.pdb
+B:\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.dll
+B:\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.pdb
+B:\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.csprojResolveAssemblyReference.cache
+B:\wamp64\custom\ASP_Project\AgentIntranet\AgentIntranet.Contracts\bin\Debug\AgentIntranet.Contracts.dll
+B:\wamp64\custom\ASP_Project\AgentIntranet\AgentIntranet.Contracts\bin\Debug\AgentIntranet.Contracts.pdb
+B:\wamp64\custom\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.csprojResolveAssemblyReference.cache
+B:\wamp64\custom\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.dll
+B:\wamp64\custom\ASP_Project\AgentIntranet\AgentIntranet.Contracts\obj\Debug\AgentIntranet.Contracts.pdb

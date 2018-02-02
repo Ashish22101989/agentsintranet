@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>AgentsHeaven Admin Panel</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    <link href="@Url.Content("~/bower_components/morrisjs/morris.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/bower_components/font-awesome/css/font-awesome.min.css")" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    @Scripts.Render("~/bundles/jquery")
+    <script src="@Url.Content("~/bower_components/jquery/dist/jquery.min.js")"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="@Url.Content("~/bower_components/metisMenu/dist/metisMenu.min.js")"></script>
+    @{
+
+        Random rnd = new Random();
+
+        int randomNumber = rnd.Next(1, 4);
+        var bgURL = "../../Content/images/bg"+randomNumber+".jpg";
+
+    }
+    <style type="text/css" id="personalbg">
+    .personalbg {
+        background: url('@bgURL') no-repeat center center fixed;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto;
+        background-size: 100% auto;
+        margin-top: 12%;
+    }
+    </style>
+</head>
+<body class="personalbg">
+    <div id="wrapper">
+
+        @RenderBody()
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="@Url.Content("~/Scripts/sb-admin-2.js")"></script>
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
